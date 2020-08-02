@@ -1,6 +1,9 @@
 $(document)
     .ready(function() {
 
+      $('.fixed.menu').hide();
+      $('#mobile').hide();
+
       // fix menu when passed
       $('.masthead')
         .visibility({
